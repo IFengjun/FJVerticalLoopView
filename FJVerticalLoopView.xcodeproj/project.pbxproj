@@ -15,6 +15,8 @@
 		491873041E36F9B100634074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491873021E36F9B100634074 /* LaunchScreen.storyboard */; };
 		4918730F1E36F9B100634074 /* FJVerticalLoopViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4918730E1E36F9B100634074 /* FJVerticalLoopViewTests.m */; };
 		4918731A1E36F9B100634074 /* FJVerticalLoopViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 491873191E36F9B100634074 /* FJVerticalLoopViewUITests.m */; };
+		491873311E36FCF200634074 /* TwoLabeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4918732E1E36FCF200634074 /* TwoLabeView.m */; };
+		491873321E36FCF200634074 /* UIVerticalLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 491873301E36FCF200634074 /* UIVerticalLoopView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		491873151E36F9B100634074 /* FJVerticalLoopViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJVerticalLoopViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		491873191E36F9B100634074 /* FJVerticalLoopViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJVerticalLoopViewUITests.m; sourceTree = "<group>"; };
 		4918731B1E36F9B100634074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4918732D1E36FCF200634074 /* TwoLabeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoLabeView.h; sourceTree = "<group>"; };
+		4918732E1E36FCF200634074 /* TwoLabeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoLabeView.m; sourceTree = "<group>"; };
+		4918732F1E36FCF200634074 /* UIVerticalLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIVerticalLoopView.h; sourceTree = "<group>"; };
+		491873301E36FCF200634074 /* UIVerticalLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIVerticalLoopView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				491872F81E36F9B100634074 /* AppDelegate.m */,
 				491872FA1E36F9B100634074 /* ViewController.h */,
 				491872FB1E36F9B100634074 /* ViewController.m */,
+				4918732D1E36FCF200634074 /* TwoLabeView.h */,
+				4918732E1E36FCF200634074 /* TwoLabeView.m */,
+				4918732F1E36FCF200634074 /* UIVerticalLoopView.h */,
+				491873301E36FCF200634074 /* UIVerticalLoopView.m */,
 				491872FD1E36F9B100634074 /* Main.storyboard */,
 				491873001E36F9B100634074 /* Assets.xcassets */,
 				491873021E36F9B100634074 /* LaunchScreen.storyboard */,
@@ -277,8 +287,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				491872FC1E36F9B100634074 /* ViewController.m in Sources */,
+				491873311E36FCF200634074 /* TwoLabeView.m in Sources */,
 				491872F91E36F9B100634074 /* AppDelegate.m in Sources */,
 				491872F61E36F9B100634074 /* main.m in Sources */,
+				491873321E36FCF200634074 /* UIVerticalLoopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +528,7 @@
 				491873201E36F9B100634074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		491873211E36F9B100634074 /* Build configuration list for PBXNativeTarget "FJVerticalLoopViewTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				491873231E36F9B100634074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		491873241E36F9B100634074 /* Build configuration list for PBXNativeTarget "FJVerticalLoopViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				491873261E36F9B100634074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
