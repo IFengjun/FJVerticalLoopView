@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		491872F61E36F9B100634074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 491872F51E36F9B100634074 /* main.m */; };
+		491872F91E36F9B100634074 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 491872F81E36F9B100634074 /* AppDelegate.m */; };
+		491872FC1E36F9B100634074 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 491872FB1E36F9B100634074 /* ViewController.m */; };
+		491872FF1E36F9B100634074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491872FD1E36F9B100634074 /* Main.storyboard */; };
+		491873011E36F9B100634074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491873001E36F9B100634074 /* Assets.xcassets */; };
+		491873041E36F9B100634074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491873021E36F9B100634074 /* LaunchScreen.storyboard */; };
+		4918730F1E36F9B100634074 /* FJVerticalLoopViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4918730E1E36F9B100634074 /* FJVerticalLoopViewTests.m */; };
+		4918731A1E36F9B100634074 /* FJVerticalLoopViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 491873191E36F9B100634074 /* FJVerticalLoopViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4918730B1E36F9B100634074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 491872E91E36F9B100634074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 491872F01E36F9B100634074;
+			remoteInfo = FJVerticalLoopView;
+		};
+		491873161E36F9B100634074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 491872E91E36F9B100634074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 491872F01E36F9B100634074;
+			remoteInfo = FJVerticalLoopView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		491872F11E36F9B100634074 /* FJVerticalLoopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJVerticalLoopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		491872F51E36F9B100634074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		491872F71E36F9B100634074 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		491872F81E36F9B100634074 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		491872FA1E36F9B100634074 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		491872FB1E36F9B100634074 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		491872FE1E36F9B100634074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		491873001E36F9B100634074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		491873031E36F9B100634074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		491873051E36F9B100634074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4918730A1E36F9B100634074 /* FJVerticalLoopViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJVerticalLoopViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4918730E1E36F9B100634074 /* FJVerticalLoopViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJVerticalLoopViewTests.m; sourceTree = "<group>"; };
+		491873101E36F9B100634074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491873151E36F9B100634074 /* FJVerticalLoopViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJVerticalLoopViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		491873191E36F9B100634074 /* FJVerticalLoopViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJVerticalLoopViewUITests.m; sourceTree = "<group>"; };
+		4918731B1E36F9B100634074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		491872EE1E36F9B100634074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491873071E36F9B100634074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491873121E36F9B100634074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491872E81E36F9B100634074 = {
+			isa = PBXGroup;
+			children = (
+				491872F31E36F9B100634074 /* FJVerticalLoopView */,
+				4918730D1E36F9B100634074 /* FJVerticalLoopViewTests */,
+				491873181E36F9B100634074 /* FJVerticalLoopViewUITests */,
+				491872F21E36F9B100634074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		491872F21E36F9B100634074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				491872F11E36F9B100634074 /* FJVerticalLoopView.app */,
+				4918730A1E36F9B100634074 /* FJVerticalLoopViewTests.xctest */,
+				491873151E36F9B100634074 /* FJVerticalLoopViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		491872F31E36F9B100634074 /* FJVerticalLoopView */ = {
+			isa = PBXGroup;
+			children = (
+				491872F71E36F9B100634074 /* AppDelegate.h */,
+				491872F81E36F9B100634074 /* AppDelegate.m */,
+				491872FA1E36F9B100634074 /* ViewController.h */,
+				491872FB1E36F9B100634074 /* ViewController.m */,
+				491872FD1E36F9B100634074 /* Main.storyboard */,
+				491873001E36F9B100634074 /* Assets.xcassets */,
+				491873021E36F9B100634074 /* LaunchScreen.storyboard */,
+				491873051E36F9B100634074 /* Info.plist */,
+				491872F41E36F9B100634074 /* Supporting Files */,
+			);
+			path = FJVerticalLoopView;
+			sourceTree = "<group>";
+		};
+		491872F41E36F9B100634074 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				491872F51E36F9B100634074 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4918730D1E36F9B100634074 /* FJVerticalLoopViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4918730E1E36F9B100634074 /* FJVerticalLoopViewTests.m */,
+				491873101E36F9B100634074 /* Info.plist */,
+			);
+			path = FJVerticalLoopViewTests;
+			sourceTree = "<group>";
+		};
+		491873181E36F9B100634074 /* FJVerticalLoopViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				491873191E36F9B100634074 /* FJVerticalLoopViewUITests.m */,
+				4918731B1E36F9B100634074 /* Info.plist */,
+			);
+			path = FJVerticalLoopViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		491872F01E36F9B100634074 /* FJVerticalLoopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4918731E1E36F9B100634074 /* Build configuration list for PBXNativeTarget "FJVerticalLoopView" */;
+			buildPhases = (
+				491872ED1E36F9B100634074 /* Sources */,
+				491872EE1E36F9B100634074 /* Frameworks */,
+				491872EF1E36F9B100634074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FJVerticalLoopView;
+			productName = FJVerticalLoopView;
+			productReference = 491872F11E36F9B100634074 /* FJVerticalLoopView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		491873091E36F9B100634074 /* FJVerticalLoopViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491873211E36F9B100634074 /* Build configuration list for PBXNativeTarget "FJVerticalLoopViewTests" */;
+			buildPhases = (
+				491873061E36F9B100634074 /* Sources */,
+				491873071E36F9B100634074 /* Frameworks */,
+				491873081E36F9B100634074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4918730C1E36F9B100634074 /* PBXTargetDependency */,
+			);
+			name = FJVerticalLoopViewTests;
+			productName = FJVerticalLoopViewTests;
+			productReference = 4918730A1E36F9B100634074 /* FJVerticalLoopViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		491873141E36F9B100634074 /* FJVerticalLoopViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 491873241E36F9B100634074 /* Build configuration list for PBXNativeTarget "FJVerticalLoopViewUITests" */;
+			buildPhases = (
+				491873111E36F9B100634074 /* Sources */,
+				491873121E36F9B100634074 /* Frameworks */,
+				491873131E36F9B100634074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				491873171E36F9B100634074 /* PBXTargetDependency */,
+			);
+			name = FJVerticalLoopViewUITests;
+			productName = FJVerticalLoopViewUITests;
+			productReference = 491873151E36F9B100634074 /* FJVerticalLoopViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		491872E91E36F9B100634074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = fengjun;
+				TargetAttributes = {
+					491872F01E36F9B100634074 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4UEDVFJ8VH;
+						ProvisioningStyle = Automatic;
+					};
+					491873091E36F9B100634074 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4UEDVFJ8VH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 491872F01E36F9B100634074;
+					};
+					491873141E36F9B100634074 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4UEDVFJ8VH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 491872F01E36F9B100634074;
+					};
+				};
+			};
+			buildConfigurationList = 491872EC1E36F9B100634074 /* Build configuration list for PBXProject "FJVerticalLoopView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 491872E81E36F9B100634074;
+			productRefGroup = 491872F21E36F9B100634074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				491872F01E36F9B100634074 /* FJVerticalLoopView */,
+				491873091E36F9B100634074 /* FJVerticalLoopViewTests */,
+				491873141E36F9B100634074 /* FJVerticalLoopViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		491872EF1E36F9B100634074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491873041E36F9B100634074 /* LaunchScreen.storyboard in Resources */,
+				491873011E36F9B100634074 /* Assets.xcassets in Resources */,
+				491872FF1E36F9B100634074 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491873081E36F9B100634074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491873131E36F9B100634074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		491872ED1E36F9B100634074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491872FC1E36F9B100634074 /* ViewController.m in Sources */,
+				491872F91E36F9B100634074 /* AppDelegate.m in Sources */,
+				491872F61E36F9B100634074 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491873061E36F9B100634074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4918730F1E36F9B100634074 /* FJVerticalLoopViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491873111E36F9B100634074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4918731A1E36F9B100634074 /* FJVerticalLoopViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4918730C1E36F9B100634074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 491872F01E36F9B100634074 /* FJVerticalLoopView */;
+			targetProxy = 4918730B1E36F9B100634074 /* PBXContainerItemProxy */;
+		};
+		491873171E36F9B100634074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 491872F01E36F9B100634074 /* FJVerticalLoopView */;
+			targetProxy = 491873161E36F9B100634074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		491872FD1E36F9B100634074 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491872FE1E36F9B100634074 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		491873021E36F9B100634074 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				491873031E36F9B100634074 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4918731C1E36F9B100634074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4918731D1E36F9B100634074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4918731F1E36F9B100634074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UEDVFJ8VH;
+				INFOPLIST_FILE = FJVerticalLoopView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengjun.FJTestDemo.FJVerticalLoopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		491873201E36F9B100634074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UEDVFJ8VH;
+				INFOPLIST_FILE = FJVerticalLoopView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengjun.FJTestDemo.FJVerticalLoopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		491873221E36F9B100634074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4UEDVFJ8VH;
+				INFOPLIST_FILE = FJVerticalLoopViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengjun.FJTestDemo.FJVerticalLoopViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJVerticalLoopView.app/FJVerticalLoopView";
+			};
+			name = Debug;
+		};
+		491873231E36F9B100634074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4UEDVFJ8VH;
+				INFOPLIST_FILE = FJVerticalLoopViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengjun.FJTestDemo.FJVerticalLoopViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJVerticalLoopView.app/FJVerticalLoopView";
+			};
+			name = Release;
+		};
+		491873251E36F9B100634074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4UEDVFJ8VH;
+				INFOPLIST_FILE = FJVerticalLoopViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengjun.FJTestDemo.FJVerticalLoopViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FJVerticalLoopView;
+			};
+			name = Debug;
+		};
+		491873261E36F9B100634074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4UEDVFJ8VH;
+				INFOPLIST_FILE = FJVerticalLoopViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengjun.FJTestDemo.FJVerticalLoopViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FJVerticalLoopView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		491872EC1E36F9B100634074 /* Build configuration list for PBXProject "FJVerticalLoopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4918731C1E36F9B100634074 /* Debug */,
+				4918731D1E36F9B100634074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4918731E1E36F9B100634074 /* Build configuration list for PBXNativeTarget "FJVerticalLoopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4918731F1E36F9B100634074 /* Debug */,
+				491873201E36F9B100634074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		491873211E36F9B100634074 /* Build configuration list for PBXNativeTarget "FJVerticalLoopViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491873221E36F9B100634074 /* Debug */,
+				491873231E36F9B100634074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		491873241E36F9B100634074 /* Build configuration list for PBXNativeTarget "FJVerticalLoopViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491873251E36F9B100634074 /* Debug */,
+				491873261E36F9B100634074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 491872E91E36F9B100634074 /* Project object */;
+}
